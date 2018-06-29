@@ -1,0 +1,9 @@
+
+propertyWithValuesListedInASingleLine: val1a from test/r/app.yml, val2a from test/r/app.yml, val3a from test/r/app.yml
+
+propertyWithValuesListedInMultipleLines:
+    - val1b from test/r/app.yml
+    - val2b from test/r/app.yml
+    - val3b from test/r/app.yml
+
+propertyWithValuesListedInASingleLineInAnArray: [val1c from test/r/app.yml, val2c from test/r/app.yml, val3c from test/r/app.yml]
