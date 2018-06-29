@@ -15,8 +15,7 @@ Spring Boot can override properties using this syntax:
 
 ```java
 @SpringBootTest(
-        webEnvironment = SpringBootTest.WebEnvironment.NONE
-        , properties = {
+        properties = {
                 "propertyWithValuesListedInASingleLine=inline overriding value1a, inline overriding value2a, inline overriding value3a",
                 "propertyWithValuesListedInMultipleLines=inline overriding value1b, inline overriding value2b, inline overriding value3b",
                 "propertyWithValuesListedInASingleLineInAnArray=inline overriding value1c, inline overriding value2c, inline overriding value3c"
